@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "login": "test",
+        "password": "test",
+        "districtId": 1,
+        "address": "najot ta'lim mahalla 7-uy"
+    },
+    {
+        "id": 2,
+        "login": "test",
+        "password": "test",
+        "districtId": 1,
+        "address": "najot ta'lim mahalla 7-uy"
+    },
+    {
+        "id": 3,
+        "login": "test",
+        "password": "test",
+        "districtId": 1,
+        "address": "najot ta'lim mahalla 7-uy"
+    },
+    {
+        "id": "988762a5-b30a-4349-9c8f-8b891d998b08",
+        "login": "test",
+        "password": "$2b$10$DIgnKAE6R4GS1mnpiLaale.Y1Ec/O0H5ZpamFFNEPCBUa2VjoDFLu",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "13e18313-e451-4dad-875f-5ce176acf025",
+        "login": "test",
+        "password": "$2b$10$3bM8X6Kds.QxDHtOeas3NuIXpiPM1n2t0I9SeIE6c4HbOXDGS2jfO",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "d4bec22f-dac1-470d-928a-dfed5865f4a1",
+        "login": "test1",
+        "password": "$2b$10$sv29rT1XZ4OO9wb7zdl8ne1EoN/8qtndx/b7hb5YPqEuUioaOVQ/6",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "51b9fd1f-070b-42c9-b1d7-98b6cb395362",
+        "login": "test1",
+        "password": "$2b$10$K5SHotwwXExwsA5eaI18g.l0O5JHAC5Nu1zSoO2mMOjGZ.xxYKAre",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "560ecad7-f492-419a-a0a8-203ca3406554",
+        "login": "test1",
+        "password": "$2b$10$e1rdgL1jq.ka40u7tFMsUe8gKJgLkQRjcA5xFjoyhGjlqIIphl6du",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "10c75570-813a-453d-8493-4b36f08b87db",
+        "login": "test2",
+        "password": "$2b$10$iRyu9dIXtv5ynjKBDir2hub7zCrlkE/oDDNcXEfcAcKTJPEqLKbZS",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "e127624b-d3a3-4640-9cdc-2ce1d1ab09f3",
+        "login": "test3",
+        "password": "$2b$10$HlvLg023LBFlG9/nzKbo..tdoIawDDo3a5C2pC/279zObsE5Ls/3y",
+        "districtId": 1,
+        "address": "miliy tomlar 6-uy"
+    },
+    {
+        "id": "154891a4-ac43-4c6b-b9e3-6165f35f9b4f",
+        "login": "allayar",
+        "password": "$2b$10$fCOFlouC8j.GOIO.rEz/mev8RBCNYmDj9WGx5vJXtzIwvxxWz55la",
+        "districtId": "1",
+        "address": "alisher noviyi kitobxonasi 32-uy"
+    },
+    {
+        "id": "4e543008-72d1-4952-9a5f-ded5daab392f",
+        "login": "jaqsiliq",
+        "password": "$2b$10$99eOo7nuzebEJdO032lu8.dR37jMS5hcrJypi6HsQ.jat3cMQ/ZGm",
+        "districtId": "1",
+        "address": "arserr"
+    },
+    {
+        "id": "08a77cca-1534-4756-9429-c867a13215de",
+        "login": "aziz",
+        "password": "$2b$10$.AqY9lKV6R198VP871wZgujk9GyVVvKpLKaXj3p/VMVFWiHM4zRPu",
+        "districtId": "1",
+        "address": "yangizamaon"
+    }
+]

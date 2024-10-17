@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foydalanuvchi ro'yxatdan o'tishi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 400px;
+            width: 100%;
+            padding: 30px;
+        }
+        h2 {
+            color: #4a5568;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #4a5568;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="file"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="file"] {
+            padding: 10px 0;
+        }
+        input[type="submit"] {
+            background-color: #4a5568;
+            color: #ffffff;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #2d3748;
+        }
+        .image-upload {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-upload input {
+            display: none;
+        }
+        .image-upload label {
+            cursor: pointer;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .image-upload label:hover {
+            background-color: #cbd5e0;
+        }
+        .preview-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 10px auto;
+            background-image: url('https://via.placeholder.com/100');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Ro'yxatdan o'tish</h2>
+        <form  action="/user/reg"  method="post" >
+            <label for="name">Login:</label>
+            <input type="text"  name="login" required>
+
+            <label for="">Password:</label>
+            <input type="text"  name="password" required>
+
+
+            <label for="">Districtid:</label>
+            <input type="text"  name="districtId" required>
+            
+            
+            <label for="">Address:</label>
+            <input type="text"  name="address" required>
+
+
+            
+
+            <input type="submit" value="Ro'yxatdan o'tish">
+        </form>
+    </div>
+</body>
+</html>

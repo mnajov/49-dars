@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+
+  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>table</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f4f8;
+                display: block;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .container {
+                background-color: #ffffff;
+                border-radius: 10px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                max-width: 800px;
+                width: 100%;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+                text-align: left;
+                border-bottom: 1px solid #e0e0e0;
+            }
+            th {
+                background-color: #4a5568;
+                color: #ffffff;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            tr:nth-child(even) {
+                background-color: #f8fafc;
+            }
+            tr:hover {
+                background-color: #e8f4ff;
+            }
+            .user-image {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .user-id {
+                font-weight: bold;
+                color: #4a5568;
+            }
+            .user-name {
+                color: #2b6cb0;
+            }
+            .user-email {
+                color: #4a5568;
+            }
+        </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Pages</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="user-id"><a href="/home">bosh sahifa</a></td>
+                    
+                    
+                </tr>
+                
+                <tr>
+                    
+                    <td class="user-id"><a href="/reg">registratsiya</a></td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td class="user-id"><a href="/login">login</a></td>
+                    
+                    
+                </tr>
+            
+                
+               
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+    
+
+    <div class="container">
+        <h2>create region</h2>
+        <form  action="/regionapi/create" method="post" >
+            <label for="name">region:</label>
+            <input type="text" name="region" required>
+            <label for="name">stateID:</label>
+            <input type="text" name="stateId" required>
+
+
+            
+           
+            <input type="submit" value="create">
+        </form>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <h2>delet State</h2>
+        <form  action="/regionapi/delet" method="post" >
+            <label for="name">id:</label>
+            <input type="text" name="id" required>
+
+            
+           
+            <input type="submit" value="delete">
+        </form>
+    </div>
+    
+ 
+
+
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    
+                    <th>id</th>
+                    <th>region</th>
+                    <th>stateId</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <%data.forEach((data)=>{ %>
+
+                    <tr>
+                        <td class="user-id"><%=data.id%></td>
+                        <td class="user-name"><%=data.region%></td>
+                        <td class="user-name"><%=data.stateId%></td>
+                        
+                        
+                    </tr>
+                
+                <% })%>
+               
+            </tbody>
+        </table>
+    </div>
+
+
+    
+</body>
+</html>
